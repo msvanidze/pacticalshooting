@@ -1,0 +1,1 @@
+https://msvanidze.github.io/pacticalshooting/
