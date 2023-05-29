@@ -1,1 +1,1 @@
-https://msvanidze.github.io/pacticalshooting/
+https://msvanidze.github.io/pacticalshooting/pages/
