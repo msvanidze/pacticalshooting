@@ -1,4 +1,12 @@
+/* general */
 @import './reset.css';
+
+/* modules */
+@import './modules/general.css';
 @import './modules/header.css';
 @import './modules/main.css';
 @import './modules/footer.css';
+
+/* responsive */
+@import './responsive/tablet.css';
+@import './responsive/mobile.css';

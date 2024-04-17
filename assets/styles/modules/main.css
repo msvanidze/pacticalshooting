@@ -1,0 +1,17 @@
+main {
+    height: 500px;
+    background: radial-gradient(circle at 18.7% 37.8%, hsl(0, 0%, 98%) 0%, rgb(225, 234, 238) 90%);
+    padding-top: 100px;
+}
+
+.main_bg {
+    width: 100%;
+}
+
+main .container {
+    background-image: url(../../images/main_bachground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
