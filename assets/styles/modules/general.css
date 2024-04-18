@@ -15,3 +15,9 @@ header, main, footer {
 .delete {
     height: 500px;
 }
+
+.display_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
