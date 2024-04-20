@@ -6,6 +6,7 @@
 @import './modules/header.css';
 @import './modules/main.css';
 @import './modules/footer.css';
+@import './modules/carousel.css';
 
 /* responsive */
 @import './responsive/tablet.css';
