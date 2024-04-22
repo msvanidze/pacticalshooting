@@ -3,6 +3,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -53,6 +54,10 @@ table {
   border-spacing: 0;
 }
 
+html {
+  font-family: "Noto Sans Georgian";
+}
+
 header, main, footer, section {
   display: flex;
   justify-content: center;
@@ -87,20 +92,26 @@ header, main, footer, section {
   color: #fff;
 }
 .header .left {
-  width: 40%;
+  width: 35%;
   height: 100%;
   justify-content: left;
+  background-color: brown;
 }
 .header .right {
-  width: 60%;
+  width: 65%;
   height: 100%;
+  background-color: yellow;
   justify-content: right;
   /* ნავიგაცია START*/
   /* ნავიგაცია END*/
 }
+.header .right nav {
+  display: flex;
+  align-items: center;
+  background-color: red;
+}
 .header .right .nav__item {
   display: inline-block;
-  margin-left: 32px;
 }
 .header .right .nav__link {
   text-decoration: none;
@@ -108,6 +119,10 @@ header, main, footer, section {
   /* font-family: TWSAjaraTVMt-Bold, sans-serif; */
   /* text-transform: uppercase; */
   color: inherit;
+}
+.header .right .language_change {
+  width: 20px;
+  height: 20px;
 }
 
 main {
