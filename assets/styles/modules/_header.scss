@@ -13,39 +13,43 @@
         width: 35%;
         height: 100%;
         justify-content: left;
-        background-color: brown;
+    }
+
+    .display_flex .logo {
+        margin-bottom: 9px;
     }
 
     .right {
         width: 65%;
         height: 100%;
-        background-color: yellow;
         justify-content: right;
 
         nav {
             display: flex;
             align-items: center;
-            background-color: red;
         }
-    /* ნავიგაცია START*/
+        /* ნავიგაცია START*/
         .nav__item {
             display: inline-block;
-            // margin-left: 32px;
+            margin-left: 15px;
         }
 
         .nav__link {
             text-decoration: none;
             font-style: normal;
-            /* font-family: TWSAjaraTVMt-Bold, sans-serif; */
-            /* text-transform: uppercase; */
             color: inherit;
         }
 
-        .language_change {
+        .language {
+            margin-left: 20px;
             width: 20px;
             height: 20px;
-            // padding-left: 10px;
         }
-    /* ნავიგაცია END*/
+
+        .language_change {
+            width: 100%;
+            height: 100%;
+        }
+        /* ნავიგაცია END*/
     }
 }

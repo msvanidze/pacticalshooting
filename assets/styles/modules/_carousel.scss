@@ -25,32 +25,38 @@
             // background-attachment: fixed;
         }
 
-        .carousel_text {
+        .text_location{
+            flex-direction: column;
+            align-items: end;
             position: absolute;
+            width: 500px;
+            height: 60px;
             bottom: 10%;
-            left: 50%;
-            transform: translate(-50%);
+            left: 80%;
+            transform: translate(-70%);
             padding: 0.5rem 1rem;
             border-radius: 3px;
-            background-color: #000;
-            color: white;
-            text-shadow: 1px 1px black;
-            font-size: calc(1.5rem + 0.3vw);
-            font-weight: bolder;
+
+            .carousel_text {
+                // text-align: end;
+                color: white;
+                text-shadow: 2px 2px black;
+                font-size: calc(1.5rem + 0.3vw);
+                font-weight: bolder;
+            }
         }
 
         .item1 {
-            background-image: url(../images/Carousel_items/P2.jpg);
+            background-image: url(../images/Carousel_items/P1.jpg);
         }
         .item2 {
-            background-image: url(../images/Carousel_items/P1.jpg);
-            background-position: bottom; /* პირველი ფოტო ყუთით, ქვემოდან დაჭირდა პოზიცია */
+            background-image: url(../images/Carousel_items/P22.jpg);
         }
         .item3 {
-            background-image: url(../images/Carousel_items/P3.jpg);
+            background-image: url(../images/Carousel_items/P23.jpg);
         }
         .item4 {
-            background-image: url(../images/Carousel_items/P4.jpg);
+            background-image: url(../images/Carousel_items/P24.jpg);
         }
     }
 }
