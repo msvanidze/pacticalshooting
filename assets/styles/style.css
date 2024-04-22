@@ -5,8 +5,8 @@
 @import './modules/general.css';
 @import './modules/header.css';
 @import './modules/main.css';
-@import './modules/footer.css';
 @import './modules/carousel.css';
+@import './modules/footer.css';
 
 /* responsive */
 @import './responsive/tablet.css';
