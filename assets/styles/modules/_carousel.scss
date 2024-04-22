@@ -40,14 +40,14 @@
         }
 
         .item1 {
-            background-image: url(../images/Carousel_items/P3.jpg);
+            background-image: url(../images/Carousel_items/P1.jpg);
+            background-position: bottom; /* პირველი ფოტო ყუთით, ქვემოდან დაჭირდა პოზიცია */
         }
         .item2 {
             background-image: url(../images/Carousel_items/P2.jpg);
         }
         .item3 {
-            background-image: url(../images/Carousel_items/P1.jpg);
-            background-position: bottom; /* პირველი ფოტო ყუთით, ქვემოდან დაჭირდა პოზიცია */
+            background-image: url(../images/Carousel_items/P3.jpg);
         }
         .item4 {
             background-image: url(../images/Carousel_items/P4.jpg);

@@ -166,14 +166,14 @@ main {
   font-weight: bolder;
 }
 .carousel-container .carousel_items .item1 {
-  background-image: url(../images/Carousel_items/P3.jpg);
+  background-image: url(../images/Carousel_items/P1.jpg);
+  background-position: bottom; /* პირველი ფოტო ყუთით, ქვემოდან დაჭირდა პოზიცია */
 }
 .carousel-container .carousel_items .item2 {
   background-image: url(../images/Carousel_items/P2.jpg);
 }
 .carousel-container .carousel_items .item3 {
-  background-image: url(../images/Carousel_items/P1.jpg);
-  background-position: bottom; /* პირველი ფოტო ყუთით, ქვემოდან დაჭირდა პოზიცია */
+  background-image: url(../images/Carousel_items/P3.jpg);
 }
 .carousel-container .carousel_items .item4 {
   background-image: url(../images/Carousel_items/P4.jpg);
