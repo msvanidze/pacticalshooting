@@ -139,7 +139,6 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 .carousel-container .carousel_items .carousel_text {
   position: absolute;
