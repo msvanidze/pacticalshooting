@@ -22,6 +22,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+            // background-attachment: fixed;
         }
 
         .carousel_text {
@@ -39,11 +40,11 @@
         }
 
         .item1 {
-            background-image: url(../images/Carousel_items/P1.jpg);
-            background-position: bottom; /* პირველი ფოტო ყუთით, ქვემოდან დაჭირდა პოზიცია */
+            background-image: url(../images/Carousel_items/P2.jpg);
         }
         .item2 {
-            background-image: url(../images/Carousel_items/P2.jpg);
+            background-image: url(../images/Carousel_items/P1.jpg);
+            background-position: bottom; /* პირველი ფოტო ყუთით, ქვემოდან დაჭირდა პოზიცია */
         }
         .item3 {
             background-image: url(../images/Carousel_items/P3.jpg);
