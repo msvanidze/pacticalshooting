@@ -178,6 +178,11 @@ main {
   font-size: calc(1.5rem + 0.3vw);
   font-weight: bolder;
 }
+.carousel-container .carousel_items .text_location .txt2 {
+  margin-top: 8px;
+  text-shadow: 1px 1px black;
+  font-size: calc(1rem + 0.2vw);
+}
 .carousel-container .carousel_items .item1 {
   background-image: url(../images/Carousel_items/P1.jpg);
 }
