@@ -70,7 +70,7 @@ header, main, footer {
 
 .delete {
   height: 500px;
-  background-color: red;
+  background-color: yellow;
 }
 
 .display_flex {
