@@ -248,7 +248,10 @@ main {
 }
 
 footer {
-  height: 100px;
+  box-sizing: border-box;
+  height: 200px;
+  padding: 30px 0px;
+  text-align: center;
   background: linear-gradient(to right, #242424 0%, black 100%);
 }
 footer .container {
@@ -260,9 +263,20 @@ footer .container .upper {
   width: 100%;
   height: 60%;
   background-color: rgb(40, 48, 43);
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+}
+footer .container .upper a {
+  text-decoration: none;
+}
+footer .container .upper a .social_icon_settings {
+  width: 30px;
 }
 footer .container .lower {
   width: 100%;
   height: 20%;
   background-color: red;
+}
+footer .container .lower a .social_icon_settings {
+  width: 30px;
 }/*# sourceMappingURL=styles.css.map */
