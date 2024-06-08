@@ -228,7 +228,7 @@ main {
   height: 100%;
 }
 .about .container .main_text .main_tex_right .logo_big {
-  width: 250px;
+  width: 100%;
 }
 
 .activity .container .activity_left {
@@ -245,6 +245,14 @@ main {
   width: 33%;
   height: 100%;
   background-color: aqua;
+}
+
+.gallery {
+  background-color: goldenrod;
+}
+
+.partners {
+  background-color: blueviolet;
 }
 
 footer {
